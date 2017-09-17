@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.andigeeky.customizedfontexamples.R;
 
@@ -23,6 +24,8 @@ public class LegacyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_legacy, container, false);
         applyCustomFonts(view);
+        Toast.makeText(getActivity(), getString(R.string.msg_font_legacy), Toast.LENGTH_SHORT).show();
+
         return view;
     }
 

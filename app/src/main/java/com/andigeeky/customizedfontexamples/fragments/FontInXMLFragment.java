@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.andigeeky.customizedfontexamples.R;
 
@@ -19,6 +20,7 @@ public class FontInXMLFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        Toast.makeText(getActivity(), R.string.msg_font_in_xml_o, Toast.LENGTH_SHORT).show();
         return inflater.inflate(R.layout.fragment_font_in_xml, container, false);
     }
 }

@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.andigeeky.customizedfontexamples.R;
 
@@ -29,6 +30,9 @@ public class FontInXMLProgrammeticallyFragment extends Fragment {
         } else {
             applyCustomFontsProgrammaticallyForSupport(view);
         }
+
+        Toast.makeText(getActivity(), getString(R.string.msg_font_in_xml_programmatically), Toast.LENGTH_SHORT).show();
+
         return view;
     }
 
