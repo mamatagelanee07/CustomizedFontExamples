@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.andigeeky.customizedfontexamples.R;
 import com.andigeeky.customizedfontexamples.fragments.FontInXMLFragment;
+import com.andigeeky.customizedfontexamples.fragments.FontInXMLProgrammeticallyFragment;
 import com.andigeeky.customizedfontexamples.fragments.LegacyFragment;
 
 /**
@@ -19,5 +20,10 @@ public class FragmentLoader {
     public void loadFontInXMLFragment(AppCompatActivity context) {
         context.getSupportFragmentManager().beginTransaction()
                 .replace(R.id.main_container, new FontInXMLFragment(), FontInXMLFragment.TAG).commit();
+    }
+
+    public void loadFontInXMLProgrammaticallyFragment(AppCompatActivity context) {
+        context.getSupportFragmentManager().beginTransaction()
+                .replace(R.id.main_container, new FontInXMLProgrammeticallyFragment(), FontInXMLProgrammeticallyFragment.TAG).commit();
     }
 }
