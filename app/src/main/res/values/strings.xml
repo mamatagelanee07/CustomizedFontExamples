@@ -22,4 +22,9 @@
     <string name="quote3">Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.</string>
     <string name="quote4">Put your heart, mind, and soul into even your smallest acts. This is the secret of success.</string>
     <string name="quote5">It is during our darkest moments that we must focus to see the light.</string>
+    <string name="titleQuote1">EncodeSansExpanded-Light</string>
+    <string name="titleQuote2">EncodeSansExpanded-Regular</string>
+    <string name="titleQuote3">EncodeSansExpanded-Medium</string>
+    <string name="titleQuote4">EncodeSansExpanded-SemiBold</string>
+    <string name="titleQuote5">EncodeSansExpanded-Bold</string>
 </resources>

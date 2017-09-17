@@ -87,7 +87,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="0dp"
-        android:text="TextView"
+        android:text="@string/titleQuote1"
         app:layout_constraintBottom_toTopOf="@+id/textFont1"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -98,7 +98,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="0dp"
-        android:text="TextView"
+        android:text="@string/titleQuote2"
         app:layout_constraintBottom_toTopOf="@+id/textFont2"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -109,7 +109,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="0dp"
-        android:text="TextView"
+        android:text="@string/titleQuote3"
         app:layout_constraintBottom_toTopOf="@+id/textFont3"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -120,7 +120,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="0dp"
-        android:text="TextView"
+        android:text="@string/titleQuote4"
         app:layout_constraintBottom_toTopOf="@+id/textFont4"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -131,7 +131,37 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="0dp"
-        android:text="TextView"
+        android:text="@string/titleQuote5"
         app:layout_constraintBottom_toTopOf="@+id/textFont5"
         app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle1"
+        android:layout_height="1dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle2"
+        android:layout_height="1dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle3"
+        android:layout_height="1dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle4"
+        android:layout_height="1dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/background_dark"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle5"
+        android:layout_height="1dp"/>
 </android.support.constraint.ConstraintLayout>
