@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/lbl_main_legacy">
+        <menu>
+            <item
+                android:id="@+id/nav_legacy"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_legacy_sub"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/lbl_main_xml">
+        <menu>
+            <item
+                android:id="@+id/nav_xml_o"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_legacy_sub_o"/>
+            <item
+                android:id="@+id/nav_xml_support"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_legacy_sub_support"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/lbl_main_downloadable">
+        <menu>
+            <item
+                android:id="@+id/nav_downloadable_studio"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_downloadable_sub_studio"/>
+            <item
+                android:id="@+id/nav_downloadable_xml"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_downloadable_sub_xml"/>
+            <item
+                android:id="@+id/nav_downloadable_o"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_downloadable_sub_o"/>
+            <item
+                android:id="@+id/nav_downloadable_support"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/lbl_downloadable_sub_support"/>
+        </menu>
+    </item>
+
+</menu>
