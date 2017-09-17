@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_xml_o:
                 new FragmentLoader().loadFontInXMLFragment(this);
                 break;
+            case R.id.nav_xml_support:
+                new FragmentLoader().loadFontInXMLProgrammaticallyFragment(this);
+                break;
         }
 
         closeDrawer();
