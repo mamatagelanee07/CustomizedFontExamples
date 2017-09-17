@@ -13,6 +13,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.andigeeky.customizedfontexamples.fragments.LegacyFragment;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -27,6 +29,12 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = getToolbar();
         setUpDrawer(toolbar);
         setUpNavigationView();
+        loadInitialScreen();
+    }
+
+    private void loadInitialScreen() {
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.main_container, new LegacyFragment(), LegacyFragment.TAG).commit();
     }
 
     private void setUpNavigationView() {
