@@ -30,4 +30,5 @@
     <string name="msg_font_in_xml_o">Font applied using XML File</string>
     <string name="msg_font_in_xml_programmatically">Font applied Programmatically in Fragment</string>
     <string name="msg_font_legacy">Font applied by getting typeface from Asset Folder in legacy way</string>
+    <string name="msg_font_downloadable_using_xml">Font applied by downloading and defining in xml </string>
 </resources>
