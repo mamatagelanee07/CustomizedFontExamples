@@ -17,11 +17,11 @@
             <item
                 android:id="@+id/nav_xml_o"
                 android:icon="@drawable/ic_menu_manage"
-                android:title="@string/lbl_legacy_sub_o"/>
+                android:title="@string/lbl_xml_sub_resource_in_xml"/>
             <item
                 android:id="@+id/nav_xml_support"
                 android:icon="@drawable/ic_menu_manage"
-                android:title="@string/lbl_legacy_sub_support"/>
+                android:title="@string/lbl_xml_sub_programmatically"/>
         </menu>
     </item>
 

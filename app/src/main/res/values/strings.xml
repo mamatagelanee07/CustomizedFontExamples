@@ -8,8 +8,8 @@
     <string name="lbl_main_legacy">Legacy</string>
     <string name="lbl_legacy_sub">Font in Legacy Way</string>
     <string name="lbl_main_xml">Font in XML</string>
-    <string name="lbl_legacy_sub_o">Android O</string>
-    <string name="lbl_legacy_sub_support">Support Library</string>
+    <string name="lbl_xml_sub_resource_in_xml">Defining in XML</string>
+    <string name="lbl_xml_sub_programmatically">Programmatically</string>
     <string name="lbl_main_downloadable">Downloadable Fonts</string>
     <string name="lbl_downloadable_sub_studio">via Android Studio</string>
     <string name="lbl_downloadable_sub_xml">Defining in XML</string>
