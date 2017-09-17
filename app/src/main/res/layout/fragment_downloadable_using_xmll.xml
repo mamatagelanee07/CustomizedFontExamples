@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/give_you_glory"
         android:text="@string/quote1"
-        android:fontFamily="@font/encode_sans_expanded_light"
         app:layout_constraintBottom_toTopOf="@+id/textFont2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="@font/encode_sans_expanded_regular"
+        android:fontFamily="@font/give_you_glory"
         android:text="@string/quote2"
         app:layout_constraintBottom_toTopOf="@+id/textFont3"
         app:layout_constraintHorizontal_bias="0.5"
@@ -47,7 +47,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="@string/quote3"
-        android:fontFamily="@font/encode_sans_expanded_medium"
+        android:fontFamily="@font/give_you_glory"
         app:layout_constraintBottom_toTopOf="@+id/textFont4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -64,7 +64,7 @@
         android:text="@string/quote4"
         app:layout_constraintBottom_toTopOf="@+id/textFont5"
         app:layout_constraintHorizontal_bias="0.5"
-        android:fontFamily="@font/encode_sans_expanded_semi_bold"
+        android:fontFamily="@font/give_you_glory"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textFont3"
@@ -76,97 +76,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="8dp"
-        android:text="@string/quote5"
+        android:text="@string/msgNote"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:fontFamily="@font/encode_sans_expanded_bold"
+        android:fontFamily="@font/encode_sans_expanded_semi_bold"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textFont4"
         tools:layout_editor_absoluteY="172dp"/>
 
-    <TextView
-        android:id="@+id/textTitle1"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="0dp"
-        android:text="@string/titleQuote1"
-        app:layout_constraintBottom_toTopOf="@+id/textFont1"
-        app:layout_constraintLeft_toLeftOf="parent"/>
 
-    <TextView
-        android:id="@+id/textTitle2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="0dp"
-        android:text="@string/titleQuote2"
-        app:layout_constraintBottom_toTopOf="@+id/textFont2"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
-    <TextView
-        android:id="@+id/textTitle3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="0dp"
-        android:text="@string/titleQuote3"
-        app:layout_constraintBottom_toTopOf="@+id/textFont3"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
-    <TextView
-        android:id="@+id/textTitle4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="0dp"
-        android:text="@string/titleQuote4"
-        app:layout_constraintBottom_toTopOf="@+id/textFont4"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
-    <TextView
-        android:id="@+id/textTitle5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="0dp"
-        android:text="@string/titleQuote5"
-        app:layout_constraintBottom_toTopOf="@+id/textFont5"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:background="@android:color/background_dark"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle1"
-        android:layout_height="1dp"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:background="@android:color/background_dark"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle2"
-        android:layout_height="1dp"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:background="@android:color/background_dark"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle3"
-        android:layout_height="1dp"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:background="@android:color/background_dark"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle4"
-        android:layout_height="1dp"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:background="@android:color/background_dark"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle5"
-        android:layout_height="1dp"/>
 </android.support.constraint.ConstraintLayout>
