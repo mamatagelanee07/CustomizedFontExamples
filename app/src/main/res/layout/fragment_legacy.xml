@@ -5,15 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textFont1"
         android:layout_width="wrap_content"
-        android:layout_height="19dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:text="@string/quote1"
         app:layout_constraintBottom_toTopOf="@+id/textFont2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/quote2"
         app:layout_constraintBottom_toTopOf="@+id/textFont3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -42,7 +44,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="TextView"
+        android:text="@string/quote3"
         app:layout_constraintBottom_toTopOf="@+id/textFont4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/quote4"
         app:layout_constraintBottom_toTopOf="@+id/textFont5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -70,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/quote5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -81,50 +83,55 @@
     <TextView
         android:id="@+id/textTitle1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="0dp"
         android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="27dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/textFont1"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
         android:id="@+id/textTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="0dp"
         android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="104dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/textFont2"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
         android:id="@+id/textTitle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="0dp"
         android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="185dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/textFont3"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
         android:id="@+id/textTitle4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="0dp"
         android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="274dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/textFont4"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <TextView
         android:id="@+id/textTitle5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="0dp"
         android:text="TextView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="364dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/textFont5"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 </android.support.constraint.ConstraintLayout>

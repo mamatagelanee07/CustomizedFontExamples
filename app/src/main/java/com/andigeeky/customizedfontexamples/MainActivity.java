@@ -29,13 +29,12 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = getToolbar();
         setUpDrawer(toolbar);
         setUpNavigationView();
-
         loadInitialScreen();
     }
 
     private void loadInitialScreen() {
         getSupportFragmentManager().beginTransaction()
-                .add(new LegacyFragment(), LegacyFragment.TAG).commit();
+                .add(R.id.main_container, new LegacyFragment(), LegacyFragment.TAG).commit();
     }
 
     private void setUpNavigationView() {
