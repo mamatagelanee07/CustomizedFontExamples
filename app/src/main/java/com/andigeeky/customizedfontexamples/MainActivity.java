@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.andigeeky.customizedfontexamples.common.FragmentLoader;
 import com.andigeeky.customizedfontexamples.fragments.LegacyFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -33,8 +34,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void loadInitialScreen() {
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.main_container, new LegacyFragment(), LegacyFragment.TAG).commit();
+        new FragmentLoader().loadLegacyFragment(this);
     }
 
     private void setUpNavigationView() {
@@ -72,8 +72,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_legacy) {
-            // Handle the camera action
+        switch (id) {
+            case R.id.nav_legacy:
+                new FragmentLoader().loadLegacyFragment(this);
+                break;
+            case R.id.nav_xml_o:
+                new FragmentLoader().loadFontInXMLFragment(this);
+                break;
         }
 
         closeDrawer();
