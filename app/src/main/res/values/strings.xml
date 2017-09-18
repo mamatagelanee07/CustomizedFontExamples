@@ -13,7 +13,7 @@
     <string name="lbl_main_downloadable">Downloadable Fonts</string>
     <string name="lbl_downloadable_sub_studio">via Android Studio</string>
     <string name="lbl_downloadable_sub_xml">Defining in XML</string>
-    <string name="lbl_downloadable_sub_o">Android O</string>
+    <string name="lbl_downloadable_programmatically">Programmatically</string>
     <string name="lbl_downloadable_sub_support">Support Library</string>
     <string name="nav_header_title">AndiGeeky</string>
     <string name="nav_header_mail">gelaneem@gmail.com</string>
@@ -33,4 +33,10 @@
     <string name="msg_font_in_xml_programmatically">Font applied Programmatically in Fragment</string>
     <string name="msg_font_legacy">Font applied by getting typeface from Asset Folder in legacy way</string>
     <string name="msg_font_downloadable_using_xml">Font applied by downloading and defining in xml </string>
+    <string name="msg_font_downloadable_programmatically">Font applied by downloading programmatically </string>
+    <string name="lbl_btn_apply_font">Apply Font</string>
+    <string name="lbl_radio_font1">Dosis</string>
+    <string name="lbl_radio_font2">Josefin Sans</string>
+    <string name="lbl_radio_font3">Lobster</string>
+    <string name="msg_font_request_failed">Font Downloading failed</string>
 </resources>

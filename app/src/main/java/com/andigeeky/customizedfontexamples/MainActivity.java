@@ -80,6 +80,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_downloadable_xml:
                 new FragmentLoader().loadDownloadableUsingXMLFragment(this);
                 break;
+            case R.id.nav_downloadable_programmatically:
+                new FragmentLoader().loadDownloadableProgrammaticallyFragment(this);
+                break;
         }
 
         closeDrawer();
