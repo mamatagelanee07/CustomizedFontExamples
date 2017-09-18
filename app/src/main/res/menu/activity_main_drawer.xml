@@ -32,13 +32,9 @@
                 android:icon="@drawable/ic_menu_manage"
                 android:title="@string/lbl_downloadable_sub_xml"/>
             <item
-                android:id="@+id/nav_downloadable_o"
+                android:id="@+id/nav_downloadable_programmatically"
                 android:icon="@drawable/ic_menu_manage"
-                android:title="@string/lbl_downloadable_sub_o"/>
-            <item
-                android:id="@+id/nav_downloadable_support"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/lbl_downloadable_sub_support"/>
+                android:title="@string/lbl_downloadable_programmatically"/>
         </menu>
     </item>
 
