@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textFont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/give_you_glory"
+        android:text="@string/quote1"
+        app:layout_constraintBottom_toTopOf="@+id/textFont2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="64dp"/>
+
+    <TextView
+        android:id="@+id/textFont2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/give_you_glory"
+        android:text="@string/quote2"
+        app:layout_constraintBottom_toTopOf="@+id/textFont3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFont1"
+        tools:layout_editor_absoluteY="91dp"/>
+
+    <TextView
+        android:id="@+id/textFont3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/quote3"
+        android:fontFamily="@font/give_you_glory"
+        app:layout_constraintBottom_toTopOf="@+id/textFont4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFont2"
+        tools:layout_editor_absoluteY="118dp"/>
+
+    <TextView
+        android:id="@+id/textFont4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/quote4"
+        app:layout_constraintBottom_toTopOf="@+id/textFont5"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:fontFamily="@font/give_you_glory"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFont3"
+        tools:layout_editor_absoluteY="145dp"/>
+
+    <TextView
+        android:id="@+id/textFont5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/msgNote"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/encode_sans_expanded_semi_bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFont4"
+        tools:layout_editor_absoluteY="172dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

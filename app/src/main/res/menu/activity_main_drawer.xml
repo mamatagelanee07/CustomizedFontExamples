@@ -19,7 +19,7 @@
                 android:icon="@drawable/ic_menu_manage"
                 android:title="@string/lbl_xml_sub_resource_in_xml"/>
             <item
-                android:id="@+id/nav_xml_support"
+                android:id="@+id/nav_xml_programmatically"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="@string/lbl_xml_sub_programmatically"/>
         </menu>
@@ -27,10 +27,6 @@
 
     <item android:title="@string/lbl_main_downloadable">
         <menu>
-            <item
-                android:id="@+id/nav_downloadable_studio"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="@string/lbl_downloadable_sub_studio"/>
             <item
                 android:id="@+id/nav_downloadable_xml"
                 android:icon="@drawable/ic_menu_manage"

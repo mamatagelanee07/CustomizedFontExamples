@@ -22,6 +22,8 @@
     <string name="quote3">Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.</string>
     <string name="quote4">Put your heart, mind, and soul into even your smallest acts. This is the secret of success.</string>
     <string name="quote5">It is during our darkest moments that we must focus to see the light.</string>
+    <string name="msgNote">As you can see we have not added this font to our apk, still it will get downloaded
+        by Android system when user launches an application.<br/> If System is not able to download font, Default font will be shown.</string>
     <string name="titleQuote1">EncodeSansExpanded-Light</string>
     <string name="titleQuote2">EncodeSansExpanded-Regular</string>
     <string name="titleQuote3">EncodeSansExpanded-Medium</string>
@@ -30,4 +32,5 @@
     <string name="msg_font_in_xml_o">Font applied using XML File</string>
     <string name="msg_font_in_xml_programmatically">Font applied Programmatically in Fragment</string>
     <string name="msg_font_legacy">Font applied by getting typeface from Asset Folder in legacy way</string>
+    <string name="msg_font_downloadable_using_xml">Font applied by downloading and defining in xml </string>
 </resources>
